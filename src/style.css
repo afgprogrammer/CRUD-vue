@@ -16,3 +16,25 @@
     @apply text-blue-600 underline;
   }
 }
+
+@layer components {
+  .btn {
+    @apply py-2 px-6 h-12 bg-blue-500 hover:bg-blue-700 transition-all duration-300 rounded-md text-white;
+  }
+
+  .card {
+    @apply p-4 border border-red-300 rounded-lg shadow-lg;
+  }
+
+  .input {
+    @apply py-2 px-4 mt-2 h-12 border border-gray-600 rounded-md;
+  }
+
+  .selected {
+    @apply border-blue-500 bg-red-500;
+  }
+
+  .badge {
+    @apply bg-blue-800 text-white py-2 px-4 rounded-full mr-3;
+  }
+}
